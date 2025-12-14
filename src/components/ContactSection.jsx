@@ -1,5 +1,8 @@
 import {
+<<<<<<< HEAD
   AlignLeft,
+=======
+>>>>>>> 1ad70563c34bf4c088aff007e98aa66864f77243
   Instagram,
   Linkedin,
   Mail,
@@ -55,12 +58,21 @@ export const ContactSection = () => {
                   <Mail className="h-6 w-6 text-primary" />{" "}
                 </div>
                 <div>
+<<<<<<< HEAD
                   <h4 className="font-medium" style={{ textAlign: "left" }}> Email</h4>
                   <a
                     href="mailto:syedzafarsohail03@gmail.com"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
                     syedzafarsohail03@gmail.com
+=======
+                  <h4 className="font-medium"> Email</h4>
+                  <a
+                    href="mailto:hello@gmail.com"
+                    className="text-muted-foreground hover:text-primary transition-colors"
+                  >
+                    hello@gmail.com
+>>>>>>> 1ad70563c34bf4c088aff007e98aa66864f77243
                   </a>
                 </div>
               </div>
@@ -69,12 +81,20 @@ export const ContactSection = () => {
                   <Phone className="h-6 w-6 text-primary" />{" "}
                 </div>
                 <div>
+<<<<<<< HEAD
                   <h4 className="font-medium" style={{ textAlign: "left" }}> Phone</h4>
+=======
+                  <h4 className="font-medium"> Phone</h4>
+>>>>>>> 1ad70563c34bf4c088aff007e98aa66864f77243
                   <a
                     href="tel:+11234567890"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
+<<<<<<< HEAD
                     +91 6301459139
+=======
+                    +1 (123) 456-7890
+>>>>>>> 1ad70563c34bf4c088aff007e98aa66864f77243
                   </a>
                 </div>
               </div>
@@ -83,9 +103,15 @@ export const ContactSection = () => {
                   <MapPin className="h-6 w-6 text-primary" />{" "}
                 </div>
                 <div>
+<<<<<<< HEAD
                   <h4 className="font-medium" style={{ textAlign: "left" }}> Location</h4>
                   <a className="text-muted-foreground hover:text-primary transition-colors">
                     Hyderabad,Telangana
+=======
+                  <h4 className="font-medium"> Location</h4>
+                  <a className="text-muted-foreground hover:text-primary transition-colors">
+                    Vancouver, BC, Canada
+>>>>>>> 1ad70563c34bf4c088aff007e98aa66864f77243
                   </a>
                 </div>
               </div>
@@ -94,7 +120,11 @@ export const ContactSection = () => {
             <div className="pt-8">
               <h4 className="font-medium mb-4"> Connect With Me</h4>
               <div className="flex space-x-4 justify-center">
+<<<<<<< HEAD
                 <a href="https://www.linkedin.com/in/syed-zafar-sohail-ahamed-39b126279/" target="_blank">
+=======
+                <a href="#" target="_blank">
+>>>>>>> 1ad70563c34bf4c088aff007e98aa66864f77243
                   <Linkedin />
                 </a>
                 <a href="#" target="_blank">
@@ -131,7 +161,11 @@ export const ContactSection = () => {
                   name="name"
                   required
                   className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-hidden foucs:ring-2 focus:ring-primary"
+<<<<<<< HEAD
                   placeholder="Zafar..."
+=======
+                  placeholder="Pedro Machado..."
+>>>>>>> 1ad70563c34bf4c088aff007e98aa66864f77243
                 />
               </div>
 
@@ -149,7 +183,11 @@ export const ContactSection = () => {
                   name="email"
                   required
                   className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-hidden foucs:ring-2 focus:ring-primary"
+<<<<<<< HEAD
                   placeholder="zafar@gmail.com"
+=======
+                  placeholder="john@gmail.com"
+>>>>>>> 1ad70563c34bf4c088aff007e98aa66864f77243
                 />
               </div>
 

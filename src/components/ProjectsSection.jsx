@@ -3,30 +3,53 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
+<<<<<<< HEAD
     title: "StayNest",
     description: " Designed and developed a full-stack rental platform enabling property listing management, user interactions, and role-based admin controls.",
     image: "/projects/Project(1).png",
     tags: ["React","Node.js","Express.js","Javascript","Mongodb"],
+=======
+    title: "SaaS Landing Page",
+    description: "A beautiful landing page app using React and Tailwind.",
+    image: "/projects/project1.png",
+    tags: ["React", "TailwindCSS", "Supabase"],
+>>>>>>> 1ad70563c34bf4c088aff007e98aa66864f77243
     demoUrl: "#",
     githubUrl: "#",
   },
   {
     id: 2,
+<<<<<<< HEAD
     title: "Forever",
     description:
       "Developed a full-stack e-commerce application featuring product listings, shopping cart functionality, and secure user authentication.",
     image: "/projects/Project(2).png",
     tags: ["React","Node.js","Express.js","Javascript","Mongodb"],
+=======
+    title: "Orbit Analytics Dashboard",
+    description:
+      "Interactive analytics dashboard with data visualization and filtering capabilities.",
+    image: "/projects/project2.png",
+    tags: ["TypeScript", "D3.js", "Next.js"],
+>>>>>>> 1ad70563c34bf4c088aff007e98aa66864f77243
     demoUrl: "#",
     githubUrl: "#",
   },
   {
     id: 3,
+<<<<<<< HEAD
     title: "Postify",
     description:
       "Designed and developed a full-stack Blogging platform enabling blog management, user interactions, and role-based admin controls.",
     image: "/projects/Project(3).png",
     tags: ["React","Node.js","Express.js","Javascript","Mongodb"],
+=======
+    title: "E-commerce Platform",
+    description:
+      "Full-featured e-commerce platform with user authentication and payment processing.",
+    image: "/projects/project3.png",
+    tags: ["React", "Node.js", "Stripe"],
+>>>>>>> 1ad70563c34bf4c088aff007e98aa66864f77243
     demoUrl: "#",
     githubUrl: "#",
   },
@@ -100,7 +123,11 @@ export const ProjectsSection = () => {
           <a
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
             target="_blank"
+<<<<<<< HEAD
             href="https://github.com/SyedZafar03"
+=======
+            href="https://github.com/machadop1407"
+>>>>>>> 1ad70563c34bf4c088aff007e98aa66864f77243
           >
             Check My Github <ArrowRight size={16} />
           </a>

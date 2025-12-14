@@ -6,7 +6,11 @@ export const Footer = () => {
       {" "}
       <p className="text-sm text-muted-foreground">
         {" "}
+<<<<<<< HEAD
         &copy; {new Date().getFullYear()} Syed Zafar Sohail Ahamed.co. All rights reserved.
+=======
+        &copy; {new Date().getFullYear()} Pedrotech.co. All rights reserved.
+>>>>>>> 1ad70563c34bf4c088aff007e98aa66864f77243
       </p>
       <a
         href="#hero"

@@ -12,11 +12,19 @@ export const AboutSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <h3 className="text-2xl font-semibold">
+<<<<<<< HEAD
               Passionate Web Developer
             </h3>
 
             <p className="text-muted-foreground">
               Full Stack Developer with a strong foundation in both front-end and back-end technologies, I specialize
+=======
+              Passionate Web Developer & Tech Creator
+            </h3>
+
+            <p className="text-muted-foreground">
+              With over 5 years of experience in web development, I specialize
+>>>>>>> 1ad70563c34bf4c088aff007e98aa66864f77243
               in creating responsive, accessible, and performant web
               applications using modern technologies.
             </p>
@@ -35,7 +43,11 @@ export const AboutSection = () => {
               </a>
 
               <a
+<<<<<<< HEAD
                 href="https://drive.google.com/file/d/10M63zuRsXfwlDZXnVklks-PVWd3hCbI7/view?usp=sharing"
+=======
+                href=""
+>>>>>>> 1ad70563c34bf4c088aff007e98aa66864f77243
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
               >
                 Download CV
@@ -81,7 +93,12 @@ export const AboutSection = () => {
                 <div className="text-left">
                   <h4 className="font-semibold text-lg">Project Management</h4>
                   <p className="text-muted-foreground">
+<<<<<<< HEAD
                     Leading projects from conception to completion.
+=======
+                    Leading projects from conception to completion with agile
+                    methodologies.
+>>>>>>> 1ad70563c34bf4c088aff007e98aa66864f77243
                   </p>
                 </div>
               </div>
