@@ -9,7 +9,6 @@ export const HeroSection = () => {
       <div className="container max-w-4xl mx-auto text-center z-10">
         <div className="space-y-6">
           <h1 className="text-4xl md:text-6xl font-bold tracking-tight">
-<<<<<<< HEAD
             <span className="opacity-0 animate-fade-in"> Hi, I'm SYED</span>
             <span className="text-primary opacity-0 animate-fade-in-delay-1">
               {" "}
@@ -18,26 +17,12 @@ export const HeroSection = () => {
             <span className="text-gradient ml-2 opacity-0 animate-fade-in-delay-2">
               {" "}
               SOHAIL AHAMED
-=======
-            <span className="opacity-0 animate-fade-in"> Hi, I'm</span>
-            <span className="text-primary opacity-0 animate-fade-in-delay-1">
-              {" "}
-              Pedro
-            </span>
-            <span className="text-gradient ml-2 opacity-0 animate-fade-in-delay-2">
-              {" "}
-              Machado
->>>>>>> 1ad70563c34bf4c088aff007e98aa66864f77243
             </span>
           </h1>
 
           <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
             I create stellar web experiences with modern technologies.
-<<<<<<< HEAD
             Specializing in front-end and backend development, I build interfaces that are
-=======
-            Specializing in front-end development, I build interfaces that are
->>>>>>> 1ad70563c34bf4c088aff007e98aa66864f77243
             both beautiful and functional.
           </p>
 
