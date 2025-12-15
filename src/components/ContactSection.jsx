@@ -22,7 +22,7 @@ export const ContactSection = () => {
   e.preventDefault();
   setIsSubmitting(true);
 
-  // 1️⃣ Send message to YOU
+  // Send message to YOU
   emailjs
     .sendForm(
       import.meta.env.VITE_EMAILJS_SERVICE_ID,
@@ -31,7 +31,7 @@ export const ContactSection = () => {
       import.meta.env.VITE_EMAILJS_PUBLIC_KEY
     )
     .then(() => {
-      // 2️⃣ Send auto-reply to USER
+      // Send auto-reply to USER
       return emailjs.sendForm(
         import.meta.env.VITE_EMAILJS_SERVICE_ID,
         import.meta.env.VITE_EMAILJS_AUTOREPLY_TEMPLATE_ID,
